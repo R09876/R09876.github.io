@@ -186,7 +186,6 @@ button {
 .menu__overlay {
   position: absolute;
   top: 0;
-  left: 414px;
   right: 0;
   bottom: 0;
   width: 100%;
@@ -194,6 +193,7 @@ button {
   background-color: rgba(0, 0, 0, 0.6980392157);
   cursor: pointer;
   opacity: 0;
+  z-index: -100;
 }
 
 .menu__inner {
